@@ -99,10 +99,6 @@ export default function RsvpForm() {
         
         {/* Section Header */}
         <div className="text-center space-y-3">
-          <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-600/20 border border-blue-400/40 text-cyan-200 text-xs font-bold uppercase tracking-widest">
-            <Ticket className="w-4 h-4 text-cyan-300" />
-            <span>Урилгын Хариу / Бүртгэл</span>
-          </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
             ОРОЛЦОХ БҮРТГЭЛИЙН ФОРМ
           </h2>
