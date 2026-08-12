@@ -84,23 +84,21 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="max-w-2xl text-slate-200 text-base sm:text-lg mb-8 leading-relaxed font-light">
-          Монгол улсад Цагдаагийн байгууллага үүсэн байгуулагдсаны түүхт <strong className="text-cyan-300 font-bold">100 жилийн ой</strong>,
-          Ховд аймаг дахь Цагдаагийн газрын хүндэтгэлийн арга хэмжээнд таныг хүрэлцэн ирэхийг урьж байна.
+        <p className="max-w-2xl text-slate-200 text-base sm:text-xl mb-8 leading-relaxed font-light">
+          Ховд аймгийн Цэргийн гавьяаны одонт Цагдаагийн газрын түүхт <strong className="text-cyan-300 font-bold">100н жилийн ойн баярт</strong> эрхэм таныг хүрэлцэн ирэхийг урьж байна.
         </p>
 
         {/* Borderless Centered Location & Time */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-2xl mb-10 text-center">
+        <div id="location" className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-2xl mb-10 text-center">
           <div className="py-2 space-y-1">
             <span className="text-xs text-slate-300 uppercase tracking-widest font-semibold block">Хугацаа</span>
             <p className="text-white font-black text-xl sm:text-2xl">9-р сарын 4-ний өдөр</p>
-            <p className="text-sm text-cyan-300 font-medium">10:00 цагаас эхэлнэ</p>
           </div>
 
           <div className="py-2 space-y-1">
-            <span className="text-xs text-slate-300 uppercase tracking-widest font-semibold block">Байршил</span>
-            <p className="text-white font-black text-xl sm:text-2xl">Ховд аймаг</p>
-            <p className="text-sm text-cyan-300 font-medium">Жаргалант сум</p>
+            <span className="text-xs text-slate-300 uppercase tracking-widest font-semibold block">Байршил & Хаяг</span>
+            <p className="text-white font-black text-lg sm:text-xl">Ховд аймгийн Цагдаагийн газар</p>
+            <p className="text-sm text-cyan-300 font-medium">Наадмын талбай</p>
           </div>
         </div>
 

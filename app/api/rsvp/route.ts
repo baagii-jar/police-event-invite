@@ -26,13 +26,33 @@ export async function POST(request: Request) {
     };
 
     let supabaseSaved = false;
+    let googleSheetsSaved = false;
 
+    // 1. Save to Supabase if configured
     if (supabase) {
       const { error } = await supabase.from("rsvps").insert([submissionData]);
       if (!error) {
         supabaseSaved = true;
       } else {
         console.warn("Supabase insertion notice:", error.message);
+      }
+    }
+
+    // 2. Forward to Google Sheets Webhook if configured
+    const googleSheetsUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+    if (googleSheetsUrl) {
+      try {
+        const gsResponse = await fetch(googleSheetsUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(submissionData),
+          redirect: "follow",
+        });
+        if (gsResponse.ok || gsResponse.status === 302) {
+          googleSheetsSaved = true;
+        }
+      } catch (gsErr) {
+        console.error("Google Sheets Webhook send error:", gsErr);
       }
     }
 
@@ -44,6 +64,7 @@ export async function POST(request: Request) {
       message: "Бүртгэл амжилттай хийгдлээ!",
       data: submissionData,
       supabaseSaved,
+      googleSheetsSaved,
     });
   } catch (error) {
     console.error("RSVP API error:", error);

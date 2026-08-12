@@ -1,7 +1,6 @@
 import Image from "next/image";
 import BackgroundVideo from "./components/BackgroundVideo";
 import Hero from "./components/Hero";
-import EventDetails from "./components/EventDetails";
 import RsvpForm from "./components/RsvpForm";
 import { MapPin, Phone } from "lucide-react";
 
@@ -15,7 +14,6 @@ export default function Home() {
       {/* Main Content Sections */}
       <main className="flex-1 w-full relative z-10 pt-6 sm:pt-10">
         <Hero />
-        <EventDetails />
         <RsvpForm />
       </main>
 
@@ -31,13 +29,13 @@ export default function Home() {
             </span>
           </div>
 
-          <p className="text-slate-300 font-light max-w-md mx-auto">
-            Монгол улсад Цагдаагийн байгууллага үүсэн байгуулагдсаны 100 жилийн ойн хүндэтгэлийн арга хэмжээний цахим урилга.
+          <p className="text-slate-300 font-light max-w-lg mx-auto">
+            Ховд аймгийн Цэргийн гавьяаны одонт Цагдаагийн газрын түүхт 100н жилийн ойн баярын цахим урилга.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-slate-300 pt-2 font-medium">
             <span className="flex items-center gap-1.5">
-              <MapPin className="w-4 h-4 text-cyan-400" /> Ховд аймаг, Жаргалант сум
+              <MapPin className="w-4 h-4 text-cyan-400" /> Ховд аймгийн Цагдаагийн газар, Наадмын талбай
             </span>
             <span className="flex items-center gap-1.5">
               <Phone className="w-4 h-4 text-white" /> Холбоо барих: 7043-2102

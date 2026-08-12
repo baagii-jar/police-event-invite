@@ -310,7 +310,7 @@ export default function RsvpForm() {
               </div>
               <div className="flex justify-between border-b border-slate-800 pb-1">
                 <span className="text-slate-400">Огноо & Байршил:</span>
-                <span className="font-bold text-white">9-р сарын 4, Ховд Жаргалант</span>
+                <span className="font-bold text-white">9-р сарын 4, Наадмын талбай</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-slate-400">Төлөв:</span>
