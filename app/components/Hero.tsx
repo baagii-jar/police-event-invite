@@ -47,13 +47,13 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-[92vh] flex flex-col justify-center items-center px-4 py-12 text-center z-10">
+    <section className="relative flex flex-col justify-center items-center px-4 py-8 sm:py-12 text-center z-10">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
 
         {/* Prominent Large Logo Emblem */}
         <div className="relative mb-6 group">
           <div className="absolute -inset-3 bg-gradient-to-r from-blue-600 via-cyan-400 to-white rounded-full blur-xl opacity-75 group-hover:opacity-100 transition duration-500 animate-pulse-glow" />
-          <div className="relative w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full p-2 bg-gradient-to-b from-white via-cyan-500 to-blue-900 shadow-[0_0_50px_rgba(56,189,248,0.5)]">
+          <div className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full p-2 bg-gradient-to-b from-white via-cyan-500 to-blue-900 shadow-[0_0_50px_rgba(56,189,248,0.5)]">
             <div className="w-full h-full rounded-full overflow-hidden relative bg-slate-950 flex items-center justify-center border-4 border-slate-950">
               <Image
                 src="/y9hy5kZE.jpg"
@@ -67,28 +67,28 @@ export default function Hero() {
         </div>
 
         {/* 100 ЖИЛ Text Below Logo */}
-        <div className="text-sm sm:text-base font-black text-cyan-300 uppercase tracking-widest mb-2">
-          1926 — 2026 | 100 ЖИЛ
+        <div className="text-xs sm:text-sm font-black text-cyan-300 uppercase tracking-widest mb-1.5">
+          1926 — 2026 | 100 ЖИЛИЙН ОЙ
         </div>
 
-        {/* Clean Subheader Text */}
-        <div className="text-xs sm:text-sm font-extrabold text-slate-200 tracking-widest uppercase mb-4">
+        {/* Subheader Text */}
+        <div className="text-[11px] sm:text-xs font-extrabold text-slate-300 tracking-widest uppercase mb-3">
           ЦАГДААГИЙН БАЙГУУЛЛАГЫН 100 ЖИЛИЙН ОЙ
         </div>
 
         {/* Main Event Title */}
-        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight mb-4">
+        <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-4">
           <span className="block text-white">ХҮНДЭТГЭЛИЙН УРИЛГА</span>
-          <span className="block blue-white-gradient mt-2">
+          <span className="block blue-white-gradient mt-1.5">
             ХОВД АЙМАГ ДАХЬ ЦАГДААГИЙН ГАЗАР
           </span>
         </h1>
 
-        <p className="max-w-2xl text-slate-200 text-base sm:text-xl mb-8 leading-relaxed font-light">
+        <p className="max-w-xl text-slate-200 text-sm sm:text-lg mb-8 leading-relaxed font-light">
           Ховд аймгийн Цэргийн гавьяаны одонт Цагдаагийн газрын түүхт <strong className="text-cyan-300 font-bold">100н жилийн ойн баярт</strong> эрхэм таныг хүрэлцэн ирэхийг урьж байна.
         </p>
 
-        {/* Borderless Centered Location & Time */}
+        {/* Clean Centered Location & Date (No time, clean layout) */}
         <div id="location" className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-2xl mb-10 text-center">
           <div className="py-2 space-y-1">
             <span className="text-xs text-slate-300 uppercase tracking-widest font-semibold block">Хугацаа</span>
@@ -103,8 +103,8 @@ export default function Hero() {
         </div>
 
         {/* Live Countdown Timer */}
-        <div className="w-full max-w-2xl">
-          <h3 className="text-xs font-bold uppercase tracking-widest text-slate-300 mb-4">
+        <div className="w-full max-w-xl">
+          <h3 className="text-xs font-bold uppercase tracking-widest text-slate-300 mb-3">
             Арга хэмжээ эхлэхэд үлдсэн хугацаа
           </h3>
           <div className="grid grid-cols-4 gap-2 sm:gap-4">
@@ -116,12 +116,12 @@ export default function Hero() {
             ].map((item, idx) => (
               <div
                 key={idx}
-                className="police-glass p-3 sm:p-5 rounded-2xl border border-white/20 shadow-2xl flex flex-col items-center justify-center"
+                className="police-glass p-2.5 sm:p-4 rounded-2xl border border-white/20 shadow-2xl flex flex-col items-center justify-center"
               >
-                <span className="text-2xl sm:text-4xl font-black text-white font-mono tracking-tight">
+                <span className="text-xl sm:text-3xl font-black text-white font-mono tracking-tight">
                   {String(item.value).padStart(2, "0")}
                 </span>
-                <span className="text-[10px] sm:text-xs font-bold text-cyan-300 uppercase tracking-wider mt-1">
+                <span className="text-[10px] sm:text-xs font-bold text-cyan-300 uppercase tracking-wider mt-0.5">
                   {item.label}
                 </span>
               </div>
