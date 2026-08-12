@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import EventDetails from "./components/EventDetails";
 import RsvpForm from "./components/RsvpForm";
 import InvitationCover from "./components/InvitationCover";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 
 export default function Home() {
   const [showCover, setShowCover] = useState(true);
@@ -22,18 +22,6 @@ export default function Home() {
 
       {/* Background Video & Music Component (Starts playback after cover click, 50% volume) */}
       <BackgroundVideo hasStarted={!showCover} />
-
-      {/* Re-open Cover Floating Button (Top right on mobile, non-obtrusive) */}
-      {!showCover && (
-        <button
-          onClick={() => setShowCover(true)}
-          className="fixed top-4 right-4 z-40 px-3.5 py-2 rounded-full bg-slate-900/85 hover:bg-slate-800 text-amber-300 font-bold text-xs border border-amber-400/40 shadow-lg backdrop-blur-md flex items-center gap-1.5 transition-all duration-300 transform hover:scale-105 active:scale-95"
-          title="Урилгын нүүр хуудсыг дахин харах"
-        >
-          <Mail className="w-3.5 h-3.5 text-cyan-400" />
-          <span>Урилгын нүүр</span>
-        </button>
-      )}
 
       {/* Main Content Sections */}
       <main className="flex-1 w-full relative z-10 pt-4 sm:pt-8">
