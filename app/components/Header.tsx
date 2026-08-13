@@ -31,10 +31,10 @@ export default function Header() {
               <span className="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded-full border border-amber-400/30">
                 1926 - 2026
               </span>
-              <span className="text-xs text-slate-300 font-medium">100 ЖИЛИЙН ОЙ</span>
+              <span className="text-xs text-slate-300 font-medium">ХОВД АЙМГИЙН ЦАГДААГИЙН ГАЗРЫН 100Н ЖИЛИЙН ОЙ</span>
             </div>
             <h1 className="text-sm sm:text-base font-bold text-white tracking-wide">
-              ХОВД АЙМАГ ДАХЬ ЦАГДААГИЙН ГАЗАР
+              ХОВД АЙМАГ ЦАГДААГИЙН ГАЗАР
             </h1>
           </div>
         </div>

@@ -38,7 +38,7 @@ export default function Home() {
               <Image src="/y9hy5kZE.jpg" alt="Police Logo" fill className="object-cover" />
             </div>
             <span className="font-bold text-white tracking-wider text-sm">
-              ХОВД АЙМАГ ДАХЬ ЦАГДААГИЙН ГАЗАР
+              ХОВД АЙМАГ ЦАГДААГИЙН ГАЗАР
             </span>
           </div>
 
@@ -51,7 +51,7 @@ export default function Home() {
               <MapPin className="w-4 h-4 text-cyan-400" /> Ховд аймгийн Цагдаагийн газар, Наадмын талбай
             </span>
             <span className="flex items-center gap-1.5">
-              <Phone className="w-4 h-4 text-cyan-400" /> Холбоо барих:{" "}
+              <Phone className="w-4 h-4 text-cyan-400" /> Холбоо барих утас:{" "}
               <a href="tel:99996509" className="text-white hover:text-cyan-300 underline underline-offset-2 transition-colors">99996509</a>,{" "}
               <a href="tel:99102538" className="text-white hover:text-cyan-300 underline underline-offset-2 transition-colors">99102538</a>
             </span>

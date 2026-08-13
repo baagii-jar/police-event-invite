@@ -67,20 +67,15 @@ export default function Hero() {
         </div>
 
         {/* 100 ЖИЛ Text Below Logo */}
-        <div className="text-xs sm:text-sm font-black text-cyan-300 uppercase tracking-widest mb-1.5">
-          1926 — 2026 | 100 ЖИЛИЙН ОЙ
-        </div>
-
-        {/* Subheader Text */}
-        <div className="text-[11px] sm:text-xs font-extrabold text-slate-300 tracking-widest uppercase mb-3">
-          ЦАГДААГИЙН БАЙГУУЛЛАГЫН 100 ЖИЛИЙН ОЙ
+        <div className="text-xs sm:text-sm font-black text-cyan-300 uppercase tracking-widest mb-4">
+          1926 — 2026 | ХОВД АЙМГИЙН ЦАГДААГИЙН ГАЗРЫН 100Н ЖИЛИЙН ОЙ
         </div>
 
         {/* Main Event Title */}
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-4">
           <span className="block text-white">ХҮНДЭТГЭЛИЙН УРИЛГА</span>
           <span className="block blue-white-gradient mt-1.5">
-            ХОВД АЙМАГ ДАХЬ ЦАГДААГИЙН ГАЗАР
+            ХОВД АЙМАГ ЦАГДААГИЙН ГАЗАР
           </span>
         </h1>
 
@@ -91,7 +86,7 @@ export default function Hero() {
         {/* Clean Centered Location & Date (No time, clean layout) */}
         <div id="location" className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-2xl mb-10 text-center">
           <div className="py-2 space-y-1">
-            <span className="text-xs text-slate-300 uppercase tracking-widest font-semibold block">Хугацаа</span>
+            <span className="text-xs text-slate-300 uppercase tracking-widest font-semibold block">Огноо</span>
             <p className="text-white font-black text-xl sm:text-2xl">9-р сарын 4-ний өдөр</p>
           </div>
 
