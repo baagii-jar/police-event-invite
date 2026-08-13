@@ -51,7 +51,9 @@ export default function Home() {
               <MapPin className="w-4 h-4 text-cyan-400" /> Ховд аймгийн Цагдаагийн газар, Наадмын талбай
             </span>
             <span className="flex items-center gap-1.5">
-              <Phone className="w-4 h-4 text-white" /> Холбоо барих: 7043-2102
+              <Phone className="w-4 h-4 text-cyan-400" /> Холбоо барих:{" "}
+              <a href="tel:99996509" className="text-white hover:text-cyan-300 underline underline-offset-2 transition-colors">99996509</a>,{" "}
+              <a href="tel:99102538" className="text-white hover:text-cyan-300 underline underline-offset-2 transition-colors">99102538</a>
             </span>
           </div>
         </div>
