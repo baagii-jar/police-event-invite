@@ -38,12 +38,12 @@ export default function Home() {
               <Image src="/y9hy5kZE.jpg" alt="Police Logo" fill className="object-cover" />
             </div>
             <span className="font-bold text-white tracking-wider text-sm">
-              ХОВД АЙМАГ ЦАГДААГИЙН ГАЗАР
+              ХОВД АЙМГИЙН ЦАГДААГИЙН ГАЗАР
             </span>
           </div>
 
           <p className="text-slate-300 font-light max-w-lg mx-auto">
-            Ховд аймгийн Цэргийн гавьяаны одонт Цагдаагийн газрын түүхт 100н жилийн ойн баярын цахим урилга.
+            Ховд аймгийн Цэргийн гавьяаны одонт Цагдаагийн газрын түүхт 100-н жилийн ойн баярын цахим урилга.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-slate-300 pt-2 font-medium">

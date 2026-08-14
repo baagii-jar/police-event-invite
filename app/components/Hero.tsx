@@ -68,19 +68,19 @@ export default function Hero() {
 
         {/* 100 ЖИЛ Text Below Logo */}
         <div className="text-xs sm:text-sm font-black text-cyan-300 uppercase tracking-widest mb-4">
-          1926 — 2026 | ХОВД АЙМГИЙН ЦАГДААГИЙН ГАЗРЫН 100Н ЖИЛИЙН ОЙ
+          1926 — 2026 | ХОВД АЙМГИЙН ЦАГДААГИЙН ГАЗРЫН 100-Н ЖИЛИЙН ОЙ
         </div>
 
         {/* Main Event Title */}
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-4">
           <span className="block text-white">ХҮНДЭТГЭЛИЙН УРИЛГА</span>
           <span className="block blue-white-gradient mt-1.5">
-            ХОВД АЙМАГ ЦАГДААГИЙН ГАЗАР
+            ХОВД АЙМГИЙН ЦАГДААГИЙН ГАЗАР
           </span>
         </h1>
 
         <p className="max-w-xl text-slate-200 text-sm sm:text-lg mb-8 leading-relaxed font-light">
-          Ховд аймгийн Цэргийн гавьяаны одонт Цагдаагийн газрын түүхт <strong className="text-cyan-300 font-bold">100н жилийн ойн баярт</strong> эрхэм таныг хүрэлцэн ирэхийг урьж байна.
+          Ховд аймгийн Цэргийн гавьяаны одонт Цагдаагийн газрын түүхт <strong className="text-cyan-300 font-bold">100-н жилийн ойн баярт</strong> эрхэм таныг хүрэлцэн ирэхийг урьж байна.
         </p>
 
         {/* Clean Centered Location & Date (No time, clean layout) */}

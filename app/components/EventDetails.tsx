@@ -180,7 +180,7 @@ export default function EventDetails() {
         </h2>
 
         <p className="text-slate-300 text-xs sm:text-base max-w-xl mx-auto font-light leading-relaxed px-2">
-          Ховд аймгийн Цагдаагийн газрын 100н жилийн ойн баярын арга хэмжээний
+          Ховд аймгийн Цагдаагийн газрын 100-н жилийн ойн баярын арга хэмжээний
           2026 оны 9-р сарын 03-наас 06-ны өдрүүд дэх дэлгэрэнгүй дараалал
         </p>
       </div>

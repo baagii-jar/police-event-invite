@@ -52,7 +52,7 @@ export default function InvitationCover({ onOpen }: InvitationCoverProps) {
         {/* Invitation Sentence */}
         <div>
           <p className="text-xl sm:text-2xl font-black text-white leading-relaxed tracking-tight max-w-sm mx-auto blue-white-gradient">
-            Таныг Ховд аймгийн Цагдаагийн газрын 100 жилийн ойд урьж байна
+            Таныг Ховд аймгийн Цагдаагийн газрын 100-н жилийн ойд урьж байна
           </p>
         </div>
 

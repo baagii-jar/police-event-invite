@@ -239,7 +239,7 @@ export default function RsvpForm() {
               </div>
               <textarea
                 rows={3}
-                placeholder="Түүхт 100 жилийн ойн баярын мэндчилгээ..."
+                placeholder="Түүхт 100-н жилийн ойн баярын мэндчилгээ..."
                 value={formData.notes}
                 onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                 className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-xl bg-slate-950/90 border border-slate-700 text-white placeholder-slate-500 text-xs sm:text-sm focus:outline-none focus:border-cyan-400 transition-all"
